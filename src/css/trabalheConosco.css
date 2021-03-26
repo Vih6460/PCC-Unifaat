@@ -45,50 +45,12 @@ nav a img {
     color: black;
 }
 
-#backgroundTrabalheConosco {
-    background: url(../img/apertoMao.png);
-    background-position: center;
-    opacity: .5;
-    width: 40vw;
-    height: 35vh;
-    border-radius: 50px;
-    size: cover;
-    position: relative;
-}
-
-#tituloTrabalheConosco {
-    position: absolute;
-    width: 40vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -35vh;
-}
-
-#backgroundContato {
-    background: url(../img/contato.jpg);
-    background-position: center;
-    opacity: .5;
-    width: 40vw;
-    height: 35vh;
-    border-radius: 50px;
-    size: cover;
-    position: relative;
-}
-
-#tituloContato {
-    position: absolute;
-    width: 40vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -35vh;
-}
 
 footer {
-    position: sticky!important;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: black;
     color: white;
     text-align: center;
